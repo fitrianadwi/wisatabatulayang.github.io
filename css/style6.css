@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* konten */
+
+.konten-home {
+    background-image: url(../tugu.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    transform: translateY(-20px);
+}
+
+.judul {
+    color: #55CBCD;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+
+.paragraf {
+    color: WHITE;
+    font-family: sans-serif;
+    margin-top: -40px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 12px 15px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #fa6f49;
+    transition: 0.5s;
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+}
+
+.web {
+    width: 700px;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.community {
+    color: BLACK;
+    margin-left: 30px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    opacity: 0.9
+}
+
+.pengertian {
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: handwriting;
+    font-weight: bold;
+    opacity: 0.9;
+    line-height: 0.9cm;
+    color: BLACK;
+}
+
+.footer .row {
+    padding: 2px;
+    justify-content: center;
+}
+
+.container a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Bakery';
+}
+
+.container a:hover {
+    color: pink;
+}
+
+.logo img{
+    float: left;
+    width:190px;
+    height: auto;
+}
